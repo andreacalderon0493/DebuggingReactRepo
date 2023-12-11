@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 // debug the "books" state variable to identify what that data looks like.
 // **DO NOT USE generateBookData ANYWHERE ELSE IN THIS LAB!**
 import { generateBookData } from "./data/bookData";
+import BookTable from "./components/BookTable/BookTable";
 
 const App = () => {
   const [books, setBooks] = useState();
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <div>
       <h1>Book Depot</h1>
+      <BookTable books={books} />
     </div>
   );
 };
