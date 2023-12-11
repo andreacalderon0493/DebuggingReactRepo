@@ -1,1 +1,1 @@
-# DebuggingReactRepo
+# react-debugging
