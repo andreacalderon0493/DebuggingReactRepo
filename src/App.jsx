@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 // **DO NOT USE generateBookData ANYWHERE ELSE IN THIS LAB!**
 import { generateBookData } from "./data/bookData";
 import BookTable from "./components/BookTable/BookTable";
+import BookRow from "./components/BookRow/BookRow";
 
 const App = () => {
   const [books, setBooks] = useState([]);

@@ -11,7 +11,7 @@ export function generateBookData() {
     "Cultures of the World",
     "Birds and Their Stories",
   ];
-  console.log(`book titles`, { titles });
+
   const authors = [
     "Ava Thompson",
     "Samuel Waters",
@@ -37,7 +37,7 @@ export function generateBookData() {
     "2016-04-15",
     "2018-10-09",
   ];
-  console.log(`dates:`, { dates });
+
   const pageCounts = [312, 487, 256, 529, 198, 402, 389, 315, 482, 276];
 
   return titles.map((title, index) => ({
